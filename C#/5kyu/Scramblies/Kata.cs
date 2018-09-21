@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-public class Scramblies
+public class Kata
 {
 
     public static bool Scramble(string available, string expected)
