@@ -1,28 +1,30 @@
 using System;
 using NUnit.Framework;
-using Kata;
 
-[TestFixture]
-public static class ScrambliesTests 
+namespace Kata
 {
-
-    private static void testing(bool actual, bool expected) 
+    [TestFixture]
+    public static class ScrambliesTests
     {
-        Assert.AreEqual(expected, actual);
-    }
 
-[Test]
-    public static void test1() 
-    {
-        testing(Kata.Scramble("rkqodlw","world"), true);
-        testing(Kata.Scramble("cedewaraaossoqqyt","codewars"),true);
-        testing(Kata.Scramble("katas","steak"),false);
-        testing(Kata.Scramble("scriptjavx","javascript"),false);
-        testing(Kata.Scramble("scriptingjava","javascript"),true);
-        testing(Kata.Scramble("scriptsjava","javascripts"),true);
-        testing(Kata.Scramble("javscripts","javascript"),false);
-        testing(Kata.Scramble("aabbcamaomsccdd","commas"),true);
-        testing(Kata.Scramble("commas","commas"),true);
-        testing(Kata.Scramble("sammoc","commas"),true);
+        private static void testing(bool actual, bool expected)
+        {
+            Assert.AreEqual(expected, actual);
+        }
+
+        [Test]
+        public static void test1()
+        {
+            testing(KataClass.Scramble("rkqodlw", "world"), true);
+            testing(KataClass.Scramble("cedewaraaossoqqyt", "codewars"), true);
+            testing(KataClass.Scramble("katas", "steak"), false);
+            testing(KataClass.Scramble("scriptjavx", "javascript"), false);
+            testing(KataClass.Scramble("scriptingjava", "javascript"), true);
+            testing(KataClass.Scramble("scriptsjava", "javascripts"), true);
+            testing(KataClass.Scramble("javscripts", "javascript"), false);
+            testing(KataClass.Scramble("aabbcamaomsccdd", "commas"), true);
+            testing(KataClass.Scramble("commas", "commas"), true);
+            testing(KataClass.Scramble("sammoc", "commas"), true);
+        }
     }
 }

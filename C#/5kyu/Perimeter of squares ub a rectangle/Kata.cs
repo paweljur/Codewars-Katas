@@ -1,22 +1,25 @@
 using System;
 using System.Numerics;
 
-public class Kata
+namespace Kata
 {
-    public static BigInteger perimeter(BigInteger n)
+    public class KataClass
     {
-        BigInteger result = new BigInteger(4);
-        BigInteger last = 1;
-        BigInteger secondToLast = 0;
-
-        for (BigInteger i = 0; i < n; i++)
+        public static BigInteger perimeter(BigInteger n)
         {
-            BigInteger current = last + secondToLast;
-            result += current * 4;
-            secondToLast = last;
-            last = current;
-        }
+            BigInteger result = new BigInteger(4);
+            BigInteger last = 1;
+            BigInteger secondToLast = 0;
 
-        return result;
+            for (BigInteger i = 0; i < n; i++)
+            {
+                BigInteger current = last + secondToLast;
+                result += current * 4;
+                secondToLast = last;
+                last = current;
+            }
+
+            return result;
+        }
     }
 }

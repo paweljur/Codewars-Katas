@@ -1,14 +1,16 @@
 using NUnit.Framework;
 using System;
 using System.Linq;
-using Kata;
 
-[TestFixture]
-public class SystemTests
+namespace Kata
 {
-    [Test]
-    public void Test1()
+    [TestFixture]
+    public class SystemTests
     {
-        Assert.AreEqual("ROT13 example.", Kata.Rot13("EBG13 rknzcyr."));
+        [Test]
+        public void Test1()
+        {
+            Assert.AreEqual("ROT13 example.", KataClass.Rot13("EBG13 rknzcyr."));
+        }
     }
 }

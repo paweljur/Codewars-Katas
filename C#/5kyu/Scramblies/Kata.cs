@@ -1,21 +1,24 @@
 using System;
 using System.Linq;
 
-public class Kata
+namespace Kata
 {
-
-    public static bool Scramble(string available, string expected)
+    public class KataClass
     {
-        var availableLetters = available.ToList();
-        bool result = true;
 
-        foreach (char c in expected)
+        public static bool Scramble(string available, string expected)
         {
-            if (!availableLetters.Remove(c))
-                result = false;
+            var availableLetters = available.ToList();
+            bool result = true;
+
+            foreach (char c in expected)
+            {
+                if (!availableLetters.Remove(c))
+                    result = false;
+            }
+
+            return result;
         }
 
-        return result;
     }
-
 }
