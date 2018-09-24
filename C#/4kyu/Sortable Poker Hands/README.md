@@ -42,10 +42,3 @@ Task:
     ```
     "5C 4D 3C 2S AS"
     ```
-    
-## My Comments
-
-I don't like how the PokerHandType has method for each hand type, will probably do a dictionary for each hand type with corresponding function to check if this particular hand is of given type or something similiar to this. Will see!
-
-Also each Check method is not secured for more specific versions of hand, example:
- - CheckForHighCard() does not check if given hand is Straight
