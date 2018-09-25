@@ -1,7 +1,8 @@
 using NUnit.Framework;
 using System;
+using Kata;
 
-namespace Kata
+namespace Tests
 {
     [TestFixture]
     public class DeleteNthTests

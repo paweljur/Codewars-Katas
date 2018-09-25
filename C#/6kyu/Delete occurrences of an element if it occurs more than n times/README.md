@@ -1,4 +1,4 @@
-# Scramblies
+# Delete occurrences of an element if it occurs more than n times
 
 ## Author
 https://www.codewars.com/users/JustyFY

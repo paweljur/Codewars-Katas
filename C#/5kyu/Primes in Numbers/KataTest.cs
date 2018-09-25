@@ -1,7 +1,8 @@
 using System;
 using NUnit.Framework;
+using Kata;
 
-namespace Kata
+namespace Tests
 {
     [TestFixture]
     public class KataTests

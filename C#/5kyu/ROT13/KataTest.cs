@@ -1,8 +1,9 @@
 using NUnit.Framework;
 using System;
 using System.Linq;
+using Kata;
 
-namespace Kata
+namespace Tests
 {
     [TestFixture]
     public class SystemTests

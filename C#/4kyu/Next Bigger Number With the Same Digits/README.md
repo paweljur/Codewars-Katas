@@ -1,4 +1,4 @@
-# Scramblies
+# Next Bigger Number With the Same Digits
 
 ## Author
 https://www.codewars.com/users/GiacomoSorbi

@@ -1,4 +1,4 @@
-# Scramblies
+# Perimeter of squares in a rectangle
 
 ## Author
 https://www.codewars.com/users/g964

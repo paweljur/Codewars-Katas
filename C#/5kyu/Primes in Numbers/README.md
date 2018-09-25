@@ -1,4 +1,4 @@
-# Scramblies
+# Primes in Numbers
 
 ## Author
 https://www.codewars.com/users/g964

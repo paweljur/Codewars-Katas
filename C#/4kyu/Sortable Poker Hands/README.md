@@ -1,4 +1,4 @@
-# Scramblies
+# Sortable Poker Hands
 
 ## Author
 https://www.codewars.com/users/FrankK

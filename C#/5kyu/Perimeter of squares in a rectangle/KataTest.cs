@@ -1,8 +1,9 @@
 using System;
 using NUnit.Framework;
 using System.Numerics;
+using Kata;
 
-namespace Kata
+namespace Tests
 {
     [TestFixture]
     public class SumFctTests

@@ -1,4 +1,4 @@
-# Scramblies
+# Human Readable Time
 
 ## Author
 https://www.codewars.com/users/BattleRattle

@@ -1,4 +1,4 @@
-# Scramblies
+# ROT13
 
 ## Author
 https://www.codewars.com/users/hvaara
